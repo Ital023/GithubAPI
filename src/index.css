@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
 
   --dsc-color-bg-primary: linear-gradient(180deg, #FFFFFF 0%, #F7F9FA 100%);
-  ;
+
   --dsc-color-bg-secondary: #1890FF;
   --dsc-color-bg-tertiary: #E6F7FF;
   --dsc-color-bg-quaternary: #FFFFFF;
@@ -13,6 +15,60 @@
   --dsc-color-font-primary: #000000;
   --dsc-color-font-secondary: #7E7E7E;
   --dsc-color-font-tertiary: #737373;
+  --dsc-color-font-quaternary: #FFFFFF;
+
   --dsc-color-font-placeholder: #BFBFBF;
 
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+html,
+body {
+  background-color: var(--dsc-color-bg-primary);
+}
+
+.gapi-container {
+  padding-inline: 41px;
+}
+
+/* ----------------------- Header ----------------------- */
+
+.gapi-header-primary {
+  height: 62px;
+  background-color: var(--dsc-color-bg-secondary);
+  display: flex;
+  align-items: center;
+}
+
+.gapi-icon-primary {
+  color: var(--dsc-color-font-quaternary);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* ----------------------- Btn ----------------------- */
+
+.gapi-btn {
+  all: unset;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding-inline: 18px;
 }
