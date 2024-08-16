@@ -1,0 +1,18 @@
+:root {
+
+  --dsc-color-bg-primary: linear-gradient(180deg, #FFFFFF 0%, #F7F9FA 100%);
+  ;
+  --dsc-color-bg-secondary: #1890FF;
+  --dsc-color-bg-tertiary: #E6F7FF;
+  --dsc-color-bg-quaternary: #FFFFFF;
+
+  --dsc-color-card-bg: #F5F5F5;
+
+  --dsc-color-btn-primary: #1890FF;
+
+  --dsc-color-font-primary: #000000;
+  --dsc-color-font-secondary: #7E7E7E;
+  --dsc-color-font-tertiary: #737373;
+  --dsc-color-font-placeholder: #BFBFBF;
+
+}
