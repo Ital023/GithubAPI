@@ -1,0 +1,67 @@
+.gapi-user-result-container {
+    height: 334px;
+    width: 100%;
+    background-color: var(--dsc-color-card-bg);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    padding: 42px 38px;
+    margin-block: 54px;
+    gap: 29px;
+}
+
+.gapi-user-result-left {
+    max-width: 247px;
+}
+
+.gapi-user-result-left img {
+    width: 247px;
+    height: 247px;
+}
+
+.gapi-user-result-right {
+    width: 902px;
+    height: 247px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dsc-color-bg-quaternary);
+    border-radius: 6px;
+    border: 1px solid var(--dsc-color-border-primary);
+    padding: 8px 14px;
+    gap: 19px;
+}
+
+.gapi-user-result-right h2 {
+    color: var(--dsc-color-bg-secondary);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.gapi-user-result-right ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.gapi-user-result-right li {
+    background-color: var(--dsc-color-bg-quaternary);
+    border: 1px solid var(--dsc-color-border-primary);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+
+.gapi-user-result-right p {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--dsc-color-font-tertiary);
+}
+
+
+
+.gapi-user-result-right-infos {
+    font-weight: 400;
+}
