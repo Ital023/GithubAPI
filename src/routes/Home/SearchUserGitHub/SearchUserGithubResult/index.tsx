@@ -19,7 +19,7 @@ export default function SearchUserGitHubResult() {
       setUser(response.data)
     })
     .catch(()=> {
-      navigate("/");
+      navigate("/search-user/user-notFound");
     })
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
