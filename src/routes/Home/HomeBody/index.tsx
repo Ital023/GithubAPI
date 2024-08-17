@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 export default function HomeBody() {
   return (
     <div className="gapi-container">
-
       <div className="gapi-homebody-title-container">
         <h2 className="gapi-homebody-title">Desafio Github API</h2>
       </div>
@@ -16,9 +15,11 @@ export default function HomeBody() {
         </h3>
       </div>
 
-      <Link to={"search-user"}>
-      <ButtonPrimary text="Começar" />
-      </Link>
+      <div className="gapi-LinkButton">
+        <Link to={"search-user"}>
+          <ButtonPrimary text="Começar" />
+        </Link>
+      </div>
     </div>
   );
 }

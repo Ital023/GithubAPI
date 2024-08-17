@@ -87,3 +87,7 @@ body {
   padding-inline: 18px;
 
 }
+
+.gapi-LinkButton {
+  max-width: 101px;
+}
