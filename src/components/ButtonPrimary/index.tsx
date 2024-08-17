@@ -6,6 +6,6 @@ type Props = {
 
 export default function ButtonPrimary({text}: Props) {
     return (
-        <button className="gapi-btn gapi-btn-primary">{text}</button>
+        <button type="submit" className="gapi-btn gapi-btn-primary">{text}</button>
     );
 }

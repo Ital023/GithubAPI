@@ -1,5 +1,6 @@
 import "./styles.css";
 import ButtonPrimary from "../../../components/ButtonPrimary";
+import { Link } from "react-router-dom";
 
 export default function HomeBody() {
   return (
@@ -15,7 +16,9 @@ export default function HomeBody() {
         </h3>
       </div>
 
+      <Link to={"search-user"}>
       <ButtonPrimary text="Começar" />
+      </Link>
     </div>
   );
 }
