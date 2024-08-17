@@ -1,4 +1,5 @@
 .gapi-btn-primary {
-    background-color: var(--dsc-color-bg-secondary);
+    all: unset;
+    background-color: var(--dsc-color-btn-primary);
     color: var(--dsc-color-font-quaternary);
 }
