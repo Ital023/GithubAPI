@@ -1,3 +1,4 @@
+import "./styles.css"
 import { useState } from "react";
 import ButtonPrimary from "../../../components/ButtonPrimary";
 import { Outlet, useNavigate } from "react-router-dom";
@@ -29,7 +30,9 @@ export default function SearchUserGitHub() {
 
     return (
         <>
-           <div className="gapi-container gapi-search-user-container">
+           <div className="gapi-user-container">
+                <div className="gapi-search-user-container">
+
                 <h2>Encontre um perfil Github</h2>
                 <form onSubmit={handleFormSubmit}>
 
@@ -42,7 +45,8 @@ export default function SearchUserGitHub() {
 
                 <ButtonPrimary text="Encontrar"/>
                 </form>
-            </div> 
+                </div> 
+            </div>
             <Outlet />
         </>
     );

@@ -12,10 +12,15 @@
 
   --dsc-color-btn-primary: #1890FF;
 
+  --dsc-color-border-primary: #D9D9D9;
+
+
   --dsc-color-font-primary: #000000;
   --dsc-color-font-secondary: #7E7E7E;
   --dsc-color-font-tertiary: #737373;
   --dsc-color-font-quaternary: #FFFFFF;
+  --dsc-color-font-quinary: #262626;
+
 
   --dsc-color-font-placeholder: #BFBFBF;
 
@@ -41,6 +46,12 @@ body {
 
 .gapi-container {
   padding-inline: 41px;
+}
+
+.gapi-user-container {
+  width: 100%;
+  max-width: 1251px;
+  margin: 0 auto;
 }
 
 /* ----------------------- Header ----------------------- */

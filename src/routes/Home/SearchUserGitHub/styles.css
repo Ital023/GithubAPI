@@ -1,0 +1,32 @@
+.gapi-search-user-container {
+    height: 270px;
+    background-color: var(--dsc-color-bg-tertiary);
+    margin-top: 54px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 54px 31px;
+}
+
+.gapi-search-user-container h2 {
+    font-size: 38px;
+    font-weight: 500;
+    color: var(--dsc-color-font-quinary);
+    margin-bottom: 12px;
+}
+
+.gapi-search-user-container form input {
+    height: 40px;
+    width: 298px;
+    outline: none;
+    border: 1px solid var(--dsc-color-border-primary);
+    border-radius: 4px;
+    padding: 8px 17px;
+    margin-bottom: 24px;
+}
+
+.gapi-search-user-container form input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dsc-color-font-placeholder);
+}
